@@ -17,7 +17,12 @@ print("Sum is" ,sum)
 #type
 print(type(sum))
 
-#
+#Input Biodata
+name=input("Enter your name ")
+Age=int(input("Enter your age "))
+Bias=input("Enter your BTS Bias ")
+
+print("Your name is ",name," and your age is ", Age, "and your Bts bias is ",Bias)
 
 
 
