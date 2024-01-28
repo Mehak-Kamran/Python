@@ -32,3 +32,23 @@ fun4=intro.replace("am","an")
 print(fun4)
 fun5=intro.find("beautiful")
 print(fun5)
+
+#CONDITIINAL
+
+marks=int(input("Enter your marks "))
+if(marks>=90):
+    print("Your grade is A")
+elif(marks<90 and marks >=80):
+    print("Your grade is B")
+elif(70<=marks<80):
+    print("Your grade is C")
+else:
+    print("Your grade is D")
+
+
+
+
+
+
+
+
