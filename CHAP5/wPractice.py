@@ -28,7 +28,9 @@ list=(1,4,9,16,25,46,49,64,81,100)
 t=0
 search=int(input("Enter element to search"))
 while t<=len(list):
-    list.index(search)
+    if(list.index(search)):
+        print("value found")
+    
     t+=1
-
+print(list[in])
     
