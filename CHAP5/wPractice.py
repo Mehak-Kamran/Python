@@ -27,10 +27,17 @@ while g<len(score):
 list=(1,4,9,16,25,46,49,64,81,100)
 t=0
 search=int(input("Enter element to search"))
-while t<=len(list):
-    if(list.index(search)):
-        print("value found")
+while t<len(list):
+    if(search==list[t]):
+        print("Value Found")
+        break;
+    else:
+        t+=1
     
-    t+=1
-print(list[in])
+    if(t>=len(list)):
+           print("Value not found")
+
+    
+
+     
     
