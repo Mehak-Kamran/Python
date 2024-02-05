@@ -21,14 +21,12 @@ print()
 #3
 user_input=int(input("Enter an int "))
 
-
 def factorial(user_input):
      fact=1
      
-     for i in range(user_input+1,0):
+     for i in range(1,user_input+1):
         fact=fact*i
-        return fact
-
-
+     return fact   
+        
 cal_fact= factorial(user_input)
 print(cal_fact)
