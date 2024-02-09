@@ -54,7 +54,7 @@
 #     else:
 #         print("not found")
 
-
+#4
 # def lineno():
 #     find="learning"
 #     line=True
@@ -72,7 +72,34 @@
 #     print("Not found")
                 
     
-# lineno()      
+# lineno()
+
+
+#5
+with open("/workspaces/Python/CHAP7/file.txt","w") as f:
+    f.write("2,4,5,7,9,3,8,22,36")
+
+
+with open("/workspaces/Python/CHAP7/file.txt","r") as f:
+    container0=f.read()
+    list=list(container0)
+    print(type(list))
+    print(list)
+    count=0
+    for i in list:
+        if(i!=","):
+          j=int(i)
+          print(type(j))
+          if(j%2==0):
+            count+=1
+
+    print(count)   
+
+
+        
+        
+
+
 
         
 
