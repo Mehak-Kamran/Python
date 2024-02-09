@@ -80,27 +80,22 @@ with open("/workspaces/Python/CHAP7/file.txt","w") as f:
     f.write("2,4,5,7,9,3,8,22,36")
 
 
+with open("/workspaces/Python/CHAP7/file.txt","w") as f:
+    f.write("2,4,5,7,9,3,8,22,36,72,81")
+
+
 with open("/workspaces/Python/CHAP7/file.txt","r") as f:
     container0=f.read()
-    list=list(container0)
-    print(type(list))
-    print(list)
+    integers=container0.split(",")
+    #print(type(integers))
     count=0
-    for i in list:
-        if(i!=","):
-          j=int(i)
-          print(type(j))
-          if(j%2==0):
+
+    for i in integers:
+        #print(type(i))
+        list=int(i)
+        #print(type(list))
+        if list%2==0:
             count+=1
-
-    print(count)   
-
-
-        
-        
-
-
-
-        
-
+    print(count)    
+      
 
