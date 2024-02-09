@@ -27,8 +27,53 @@
 #     data=f.read()
 #     print(data)
 
-with open("/workspaces/Python/CHAP7/sample.txt","w") as f:
-    f.write("hello")
-import os
-os.remove("/workspaces/Python/CHAP7/sample.txt")
+# with open("/workspaces/Python/CHAP7/sample.txt","w") as f:
+#     f.write("hello")
+# import os
+# os.remove("/workspaces/Python/CHAP7/sample.txt")
+
+
+
+#1
+# with open("excercise.txt","w") as f:
+#     f.write("Hi everyone\nwe are learning File I/O\nusing java\nI like programming in java")
+ #2   
+# with open("excercise.txt","r") as f:
+#     container0=f.read()
+#     container1=container0.replace("java","python")
+
+# with open("excercise.txt","w") as f:
+#     f.write(container1)
+
+#3
+# with open("excercise.txt","r") as f:
+#     container1=f.read()
+#     condition=container1.find("learning")
+#     if(condition!=-1):
+#         print("Found")
+#     else:
+#         print("not found")
+
+
+# def lineno():
+#     find="learning"
+#     line=True
+#     indexno=1
+#     with open("/workspaces/Python/CHAP7/excercise.txt","r") as f:
+#         while(line):
+#             line=f.readline()
+#             container=line.find(find)
+#             if(container!=-1):
+#                 print("found at index no",indexno)
+#                 morelines=False
+#                 return
+            
+#             indexno+=1
+#     print("Not found")
+                
+    
+# lineno()      
+
+        
+
 
