@@ -1,22 +1,22 @@
 #q1
-# class Student:
-#     def __init__(self,name,marks):
-#         self.name=name
-#         self.marks=marks
+class Student:
+    def __init__(self,name,marks):
+        self.name=name
+        self.marks=marks
     
-#     def avg(self):
-#         sum=0
+    def avg(self):
+        sum=0
          
-#         for i in self.marks:
-#             sum= i+sum
-#         avg=sum/(3)
-#         print(avg)
+        for i in self.marks:
+            sum= i+sum
+        avg=sum/(3)
+        print(self.name,"Your avg marks are: ",avg)
        
 
-# s1=Student("tony",[88,91,77])
-# s1.avg()
-# s2=Student("mark",[78,98,56])
-# s2.avg()
+s1=Student("tony",[88,91,77])
+s1.avg()
+s2=Student("mark",[78,98,56])
+s2.avg()
 
 #2
 class Account:
